@@ -5,3 +5,102 @@ font-family: Lato,sans-serif;
 text-transform: uppercase;
 
 }
+
+a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+
+.header-logo {
+    margin-top: 70px;
+
+
+}
+.menu {
+margin-top: 55px;
+
+}
+.menu ul {
+
+
+}
+
+.menu ul li {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    color: #797979;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+
+
+}
+
+
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+
+.btn-signin {
+    width: 168px;
+    height: 57px;
+    text-align: center;
+    margin-left: 146px;
+    color: #ffffff;
+    background-color: #9555af;
+    border: solid 1px transparent;
+    border-radius: 5px;
+
+}
+
+.btn-contact {
+    width: 168px;
+    height: 57px;
+    text-align: center;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #094b58;
+    border: solid 1px transparent;
+    border-radius: 5px;
+
+
+}
+
+
+
+.btn-signin:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+
+.btn-contact:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+
+
+/* инвертируем цвета при наведении */
+.btn-signin:hover {
+    color: #9050aa;
+    border-color: currentColor;
+    background-color: white;
+}
+
+.btn-contact:hover {
+    color: #9050aa;
+    border-color: currentColor;
+    background-color: white;
+}
