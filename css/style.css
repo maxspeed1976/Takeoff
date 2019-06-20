@@ -1,4 +1,4 @@
-.header {
+.nav {
 
 font-family: Lato,sans-serif;
     font-size: 14px;
@@ -103,4 +103,43 @@ button {
     color: #9050aa;
     border-color: currentColor;
     background-color: white;
+}
+
+.header {
+    margin-top: 35px;
+    height: 1040px;
+    /*background-color: #9050aa;*/
+    background: url("../img/header-back.jpg");
+
+}
+
+.main-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase   ;
+
+
+
+
+}
+.main-content p {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+
+
+}
+
+.logo-store {
+    float: left;
+    display: block;
+}
+
+.app-image {
+
+
+
 }
